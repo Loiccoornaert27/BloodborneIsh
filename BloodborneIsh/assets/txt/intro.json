@@ -1,0 +1,56 @@
+{
+    "story": [
+        {
+            "id": 0,
+            "text": "Vous êtes un étranger. Vous avez fait un long voyage pour arriver à Yarnham, la ville qui abrite l'Eglise du remède. Que vous soyez là pour voler les secrets de la ville ou pour implorer son aide importe peu, vous devez trouver le pâle sang. Avant de vous laisser descendre, le cochet se tourne vers vous et vous tends trois valises \"Laquelle était la votre déjà ?\"",
+            "zone": "Place de Yarnham",
+            "NextId": "Place_de_Yarnham.weapon_choice"
+        },
+        {
+            "id": 1,
+            "text": "Votre calèche vous a déposé pas loin d'une place où une procession semble prendre place. Plusieurs personnes marchent en file, ils portent des torches.",
+            "zone": "Place de Yarnham",
+            "NextId": [2,3]
+        },
+        {
+            "id": 2,
+            "text": "Je manque d'informations sur la ville et je vais me renseigner.",
+            "zone": "Place de Yarnham",
+            "NextId": 4
+        },
+        {
+            "id": 3,
+            "text": "Observer les habitants",
+            "zone": "Place de Yarnham",
+            "NextId": 5
+        },
+        {
+            "id": 5,
+            "text": "En vous approchant pour demander votre chemin vous vous rendez compte que les locaux ont un problème, leurs membres sont élongués et leur pilosité est anormalement développée. Ils n'ont plus que la silhouaite d'un être humain. Leur attention est à présent tourné sur vous. \"Une bête ! Abbatez le!\" Leurs intentions ne sont clairement pas amicale. *combat*",
+            "zone": "Place de Yarnham",
+            "NextId": "",
+            "Fight": "data3.Monstres.Citadins"
+        },
+        {
+            "id": 6,
+            "text": "Vous vous approchez doucement mais surement, vous faites en sorte de ne pas attirer l'attention sur vous. Vous vous rendez compte que les locaux ont un problème, leurs membres sont élongués et leur pilosité est anormalement développée.Ils n'ont plus que la silhouaite d'un être humain.",
+            "NextId": ""
+        },
+        {
+            "id": 7,
+            "text": "Ce sont des abominations et ils doivent être purgés ! *combat*",
+            "NextId": "data.Place_de_Yarnham.End_Fight001",
+            "Fight": "data3.Monstres.Citadins"
+        },
+        {
+            "id": 8,
+            "text": "Celà semble plus prudent de les contourner.",
+            "NextId": ""
+        },
+        {
+            "id": 9,
+            "text": "Vous avez réussi à mettre en déroute les habitants qui vous avez attaqué et le chemin est à présent dégagé. Devant vous, le faubourg de la cathédrale. En vous rendant là-bas quelque-chose cloche, le long du chemin sont disposés des bûchers de loup aux traits étrangement humanoïdes. Que se passe-t-il donc dans cette ville ?",
+            "NextId": ""
+        }
+    ]
+}

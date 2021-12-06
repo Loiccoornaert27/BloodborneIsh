@@ -1,0 +1,30 @@
+{
+    "hunter_axe":{
+        "id":1,
+        "atk":5,
+        "dmg_type":1,
+        "price":"",
+        "img":"./assets/img/weapons/hunter_axe.jpg"
+    },
+    "threaded_cane":{
+        "id":2,
+        "atk":5,
+        "dmg_type":2,
+        "price":"",
+        "img":"./assets/img/weapons/threaded_cane.jpg"
+    },
+    "saw_cleaver":{
+        "id":3,
+        "atk":5,
+        "dmg_type":1,
+        "price":"",
+        "img":"./assets/img/weapons/saw_cleaver.jpg"
+    },
+    "tonitrus":{
+        "id":4,
+        "atk":5,
+        "dmg_type":2,
+        "price":"",
+        "img":"./assets/img/weapons/tonitrus.jpg"
+    }
+}

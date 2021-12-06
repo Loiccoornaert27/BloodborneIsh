@@ -1,0 +1,35 @@
+{
+    "monstres":{
+        
+        "Rat":{
+            "id":1,
+            "pv":20,
+            "atk":5,
+            "def":0,
+            "faiblesse":1,
+            "loot":10,
+            "img": "./assets/img/monstres/Rat.png"
+            
+        },
+       
+       "Citadins":{
+           "id":2,
+           "pv":50,
+           "atk":10,
+           "def":5,
+           "faiblesse":1,
+           "loot":50,
+           "img":"./assets/img/monstres/hunterMob.png"
+       },
+       
+      "Cochon_Mangeur_Dhommes":{
+          "id":3,
+          "pv":100,
+          "atk":10,
+          "def":5,
+          "faiblesse":1,
+          "loot":100, 
+          "img":"./assets/img/monstres/ManeaterBoar.png"
+      }
+    }
+}

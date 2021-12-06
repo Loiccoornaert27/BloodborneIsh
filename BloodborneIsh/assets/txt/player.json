@@ -1,0 +1,11 @@
+{
+    "player":{
+        "vie":"100/100",
+        "endu":"100/100",
+        "time":1,
+        "echos":10,
+        "fioles":5,
+        "balles":5,
+        "damageType":1
+    }
+}
